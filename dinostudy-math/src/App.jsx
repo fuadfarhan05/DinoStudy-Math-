@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Dino Study</h1>
+      <h2>Dino Study</h2>
       <p>Pick 2 numbers that add up to:</p>
       <h2>10</h2>
 

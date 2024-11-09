@@ -1,0 +1,119 @@
+body {
+    background-color:#12b94a;
+  }
+  
+  h2 {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    color: #f1e469;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  p {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    color: #f1e469;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .container {
+      border: solid 2px;
+      border-color: chartreuse;
+      border-radius: 50px;
+      margin: 50px;
+      background-color: rgb(63, 115, 63);
+  
+  }
+  
+  
+  
+  .carousel-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 5px solid #0f301a;
+    position: relative;
+    background-color: rgb(216, 230, 92);
+  }
+  
+  .carousel-slide {
+    display: flex;
+    width: calc(600px * 6); /* Width should accommodate all images twice for looping */
+    transition: transform 2s ease-in-out;
+  }
+  
+  .carousel-slide img {
+    width: 150px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .logo{
+    margin: 10px;
+    padding: 10px;
+    border: solid 5px;
+    border-color: #73e79a;
+    border-radius:50px;
+    
+  }
+  
+  img {
+      margin:10px;
+  }
+  
+  
+  a {
+      text-decoration: none;
+      background-color:#12b94a;
+      border: solid 3px;
+      border-radius: 50px;
+      font-family: "Sour Gummy", serif;
+      font-weight: bold;
+      font-size: 20px;
+      color:rgb(234, 251, 168);
+      padding:10px;
+      margin: 50px;
+
+      
+  }
+
+  a:hover {
+    background-color: #f1e469;
+   transform: scale(1.05);
+  }
+  
+  strong {
+    color: rgb(255, 123, 0);
+  }
+  
+  .math {
+    color: #41a1c4;
+  }
+
+  .menu {
+    background-color: #075822;
+    padding:20px;
+    border: solid 5px rgb(234, 251, 168);
+    border-radius: 50px;
+  }
+
+  .play{
+    font-size: 30px;
+  }
+
+

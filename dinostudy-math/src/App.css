@@ -79,9 +79,9 @@ body {
   background-color: #439a51;
 }
 
-h1 {
+h2 {
   font-size: 50px;
-  color: #e1ed63;
+  color: #d6e347;
   margin-bottom: 5px;
 }
 
@@ -144,3 +144,4 @@ button {
   height: 50px;
   margin:50px;
 }
+
