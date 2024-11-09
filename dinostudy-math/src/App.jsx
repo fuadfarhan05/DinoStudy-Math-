@@ -27,9 +27,9 @@ function App() {
         // Check if the two numbers add up to 10
         const sum = clickedNumbers[0] + number;
         if (sum === 10) {
-          setMessage("You found a pair that adds up to 10!");
+          setMessage("Correct, Find as many as you can!");
         } else {
-          setMessage("These numbers don't add up to 10. Try again!");
+          setMessage("Hmmmmm those two don't add up to 10. Try again!");
         }
       }
 
@@ -75,7 +75,7 @@ function App() {
       </div>
 
       {/* Reset Button */}
-      <button onClick={resetGame}>Reset Game</button>
+      <button onClick={resetGame}>Play Again</button>
     </div>
   );
 }

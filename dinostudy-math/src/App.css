@@ -82,13 +82,14 @@ body {
 h1 {
   font-size: 50px;
   color: #e1ed63;
-  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 h2 {
   font-size:75px;
-  margin-top: 1px;
-
+  margin-top:1px;
+  margin-bottom: 1px;
+  color:aliceblue;
 }
 
 .App {
@@ -106,10 +107,9 @@ h2 {
 
 .tile {
   background-color: #886437;
-  border: 5px solid #86540f;
   border-radius: 15px;
   padding: 20px;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
   color:#c8e6c9;
   margin-top: 5px;
@@ -119,12 +119,12 @@ h2 {
 }
 
 .tile.green {
-  background-color: green; /* Green background for clicked tiles */
+  background-color: rgb(53, 170, 53); /* Green background for clicked tiles */
   color: white; /* White text color when the tile is green */
 }
 
 .tile:hover {
-  background-color: #c8e6c9;
+  background-color: #f1e469;
   transform: scale(1.05);
 }
 
@@ -134,10 +134,10 @@ p {
 }
 
 button {
-  border-color: #886437;
+  border-color: #e1e418;
   border-radius: 50px;
-  background-color: #8e6313;
-  color: white;
+  background-color: #316749;
+  color: rgb(196, 223, 170);
   font-size: 20px;
   font-weight: bold;
   width: 200px;
