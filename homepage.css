@@ -11,3 +11,30 @@ h2 {
   font-variation-settings:
     "wdth" 100;
 }
+
+.carousel-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  width: calc(600px * 6); /* Width should accommodate all images twice for looping */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 150px;
+  max-width: 600px;
+  height: auto;
+}
+
+img{
+  margin: 10px;
+
+}
