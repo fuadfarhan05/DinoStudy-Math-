@@ -23,7 +23,7 @@ function App() {
       // Track the index of clicked tiles to apply styling
       setClickedTiles((prev) => [...prev, index]);
 
-      if (clickedNumbers.length === 1) {
+      if (clickedNumbers.length === 2) {
         // Check if the two numbers add up to 10
         const sum = clickedNumbers[0] + number;
         if (sum === 10) {
