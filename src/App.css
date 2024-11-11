@@ -1,3 +1,14 @@
+
+body {
+  font-family: "Sour Gummy", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
 .App {
   text-align: center;
 }
@@ -79,9 +90,9 @@ body {
   background-color: #439a51;
 }
 
-h2 {
-  font-size: 50px;
-  color: #d6e347;
+h1 {
+  font-size: 80px;
+  color: #ffffff;
   margin-bottom: 5px;
 }
 
@@ -89,7 +100,7 @@ h2 {
   font-size:75px;
   margin-top:1px;
   margin-bottom: 1px;
-  color:aliceblue;
+  color:rgb(243, 246, 98);
 }
 
 .App {
@@ -144,4 +155,5 @@ button {
   height: 50px;
   margin:50px;
 }
+
 

@@ -14,6 +14,26 @@ function App() {
     setTileNumbers(numbers); // Set the generated numbers in state
   }, []); // Empty dependency array ensures this runs once when the component mounts
 
+  // useEffect to handle the message logic after clickedNumbers is updated
+  useEffect(() => {
+    if (clickedNumbers.length === 2) {
+      // Check if the two numbers add up to 10
+      const sum = clickedNumbers[0] + clickedNumbers[1];
+      if (sum === 10) {
+        setMessage("Correct, Find as many as you can!");
+      } else {
+        setMessage("Hmmmmm those two don't add up to 10. Try again!");
+        setClickedTiles([]); 
+      }
+
+      setTimeout(() => {
+        setClickedNumbers([]);
+        // setClickedTiles([]); 
+      }, 1000); 
+      
+    }
+  }, [clickedNumbers]); // This effect runs whenever clickedNumbers changes
+
   // Function to handle tile clicks
   const handleTileClick = (number, index) => {
     if (clickedNumbers.length < 2) {
@@ -22,23 +42,6 @@ function App() {
 
       // Track the index of clicked tiles to apply styling
       setClickedTiles((prev) => [...prev, index]);
-
-      if (clickedNumbers.length === 2) {
-        // Check if the two numbers add up to 10
-        const sum = clickedNumbers[0] + number;
-        if (sum === 10) {
-          setMessage("Correct, Find as many as you can!");
-        } else {
-          setMessage("Hmmmmm those two don't add up to 10. Try again!");
-        }
-      }
-
-      // After two clicks, reset the clickedNumbers state to wait for the next pair
-      if (clickedNumbers.length === 1) {
-        setTimeout(() => {
-          setClickedNumbers([]); // Reset clicked numbers after a short delay
-        }, 1000); // Wait for 1 second before resetting
-      }
     }
   };
 
@@ -56,7 +59,7 @@ function App() {
     <div className="App">
       <h2>Dino Study</h2>
       <p>Pick 2 numbers that add up to:</p>
-      <h2>10</h2>
+      <h1>10</h1>
 
       {/* Display message */}
       <p>{message}</p>
