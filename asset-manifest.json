@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DinoStudy-Math-/static/css/main.97bae240.css",
+    "main.js": "/DinoStudy-Math-/static/js/main.f3bb3865.js",
+    "static/js/453.b1b682d1.chunk.js": "/DinoStudy-Math-/static/js/453.b1b682d1.chunk.js",
+    "index.html": "/DinoStudy-Math-/index.html",
+    "main.97bae240.css.map": "/DinoStudy-Math-/static/css/main.97bae240.css.map",
+    "main.f3bb3865.js.map": "/DinoStudy-Math-/static/js/main.f3bb3865.js.map",
+    "453.b1b682d1.chunk.js.map": "/DinoStudy-Math-/static/js/453.b1b682d1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97bae240.css",
+    "static/js/main.f3bb3865.js"
+  ]
+}
